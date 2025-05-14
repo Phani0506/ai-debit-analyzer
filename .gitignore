@@ -1,0 +1,21 @@
+# Python virtual environment
+myenv/
+venv/
+ENV/
+env/
+*.env
+
+# Streamlit secrets (local - will set in Streamlit Cloud UI)
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and OS specific files
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
